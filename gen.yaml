@@ -1,0 +1,27 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: VenariAI
+  maintainOpenAPIOrder: true
+  usageSnippets:
+    optionalPropertyRendering: withExample
+  fixes:
+    nameResolutionDec2023: false
+typescript:
+  version: 0.0.1
+  author: Venari
+  clientServerStatusCodesAsErrors: true
+  flattenGlobalSecurity: true
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/components
+      webhooks: models/webhooks
+  inputModelSuffix: input
+  installationUrl: ssh://git@github.com:Venari-Inc/venari-ai-typescript-sdk.git
+  maxMethodParams: 4
+  outputModelSuffix: output
+  packageName: venari-ai
+  templateVersion: v1
